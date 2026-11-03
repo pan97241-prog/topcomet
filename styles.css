@@ -1,0 +1,29 @@
+
+        .hero-gradient {
+            background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), 
+                        url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000') center/cover no-repeat;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Keep the contact bar visible while browsing every section. */
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 60;
+        }
+
+        nav.navbar {
+            position: sticky;
+            top: 40px;
+            z-index: 50;
+        }
+
+        @media (max-width: 640px) {
+            nav.navbar {
+                top: 44px;
+            }
+        }
+    
